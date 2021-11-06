@@ -81,10 +81,12 @@ padding: 0 10px;
 margin: 0 auto;
 }
 .header{
-background-image: url('../images/header-bg.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+ background-image: url('../images/header-bg.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  
 }
 .header__top{
 display: flex;
@@ -316,9 +318,10 @@ bottom: 5px;
   text-align: center;
   padding: 24px 91px;
   border: 1px solid #C4C4C4;
+  margin-bottom: 200px;
 }
 .blockquote{
-  padding: 80px 673px;
+  padding: 80px;
   background: #F8F8F8;
   font-style: italic;
   font-weight: normal;
@@ -327,14 +330,16 @@ bottom: 5px;
   letter-spacing: 0.6px;
   text-align: center;
   margin-bottom: 200px;
+  
 }
+
 .blockquote__author{
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.6px;
   display: block;
-  margin-left: 50%;
+  margin-left: 50%;  
 }
 .gallery__video{
   margin-bottom: 200px;
